@@ -25,6 +25,8 @@ const tracking = (event, data) => {
   }
 };
 
+console.log('AppJS Loading...')
+
 const handler = () => {
   console.log('AppJS Loaded!!');
 }
