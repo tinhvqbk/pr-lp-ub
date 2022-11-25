@@ -24,3 +24,8 @@ const tracking = (event, data) => {
     }
   }
 };
+
+const handler = () => {
+  console.log('AppJS Loaded!!');
+}
+document.addEventListener('DOMContentLoaded', handler);
